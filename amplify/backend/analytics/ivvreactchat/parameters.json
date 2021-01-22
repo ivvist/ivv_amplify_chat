@@ -1,0 +1,21 @@
+{
+    "appName": "ivvreactchat",
+    "roleName": "pinpointLambdaRole52d695cd",
+    "cloudformationPolicyName": "cloudformationPolicy52d695cd",
+    "cloudWatchPolicyName": "cloudWatchPolicy52d695cd",
+    "pinpointPolicyName": "pinpointPolicy52d695cd",
+    "authPolicyName": "pinpoint_amplify_52d695cd",
+    "unauthPolicyName": "pinpoint_amplify_52d695cd",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

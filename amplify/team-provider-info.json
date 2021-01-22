@@ -1,0 +1,26 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-ivvreactchat-dev-225756-authRole",
+            "UnauthRoleArn": "arn:aws:iam::437095801626:role/amplify-ivvreactchat-dev-225756-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::437095801626:role/amplify-ivvreactchat-dev-225756-authRole",
+            "Region": "eu-west-2",
+            "DeploymentBucketName": "amplify-ivvreactchat-dev-225756-deployment",
+            "UnauthRoleName": "amplify-ivvreactchat-dev-225756-unauthRole",
+            "StackName": "amplify-ivvreactchat-dev-225756",
+            "StackId": "arn:aws:cloudformation:eu-west-2:437095801626:stack/amplify-ivvreactchat-dev-225756/f5e856a0-5c22-11eb-a26f-02a32d1a1d84",
+            "AmplifyAppId": "d2xyom00gyyz1t"
+        },
+        "categories": {
+            "auth": {
+                "ivvreactchate51ce6f5": {}
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d2xyom00gyyz1t",
+                    "type": "manual"
+                }
+            }
+        }
+    }
+}
